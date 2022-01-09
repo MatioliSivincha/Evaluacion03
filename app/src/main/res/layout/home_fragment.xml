@@ -20,12 +20,19 @@
             <androidx.appcompat.widget.Toolbar
 
                 style="@style/Widget.MaterialComponents.AppBarLayout.PrimarySurface"
-                android:layout_width="147dp"
+                android:layout_width="410dp"
                 android:layout_height="match_parent"
-                app:title="Inicio"
+                app:title="Menu de Productos"
                 app:titleTextColor="#FFFFFF"
                 android:background="#956B19"
-                />
+                >
+                <androidx.constraintlayout.utils.widget.ImageFilterView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="right"
+                    android:padding="12dp"
+                    android:src="@drawable/settings" />
+            </androidx.appcompat.widget.Toolbar>
         </com.google.android.material.appbar.AppBarLayout>
 
         <LinearLayout
@@ -71,36 +78,84 @@
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <LinearLayout
-                    android:layout_width="100dp"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
+                    android:layout_width="400dp"
+                    android:layout_height="156dp">
 
                     <TextView
-                        style="@style/TextAppearance.AppCompat.Display3"
-                        android:layout_width="match_parent"
+                        android:layout_width="109dp"
+                        android:layout_height="103dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="40dp"
+                        android:text=" Panetón Gloria"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="146dp"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:layout_marginLeft="80dp"
-                        android:text="Nike Talla 40"
-                        android:textColor="@color/black"
-                        android:textSize="20sp" />
+                        android:layout_gravity="center"
+                        android:text="Precio:S/. 23.00"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:src="@drawable/panetongloria" />
                 </LinearLayout>
                 <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal">
+                    android:layout_width="400dp"
+                    android:layout_height="156dp">
+
                     <TextView
-                        style="@style/TextAppearance.AppCompat.Display3"
-                        android:layout_width="match_parent"
+                        android:layout_width="109dp"
+                        android:layout_height="103dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="40dp"
+                        android:text=" Sol de Cusco"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="146dp"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:layout_marginLeft="80dp"
-                        android:text="Adidas Talla 38"
-                        android:textColor="@color/black"
-                        android:textSize="20sp" />
+                        android:layout_gravity="center"
+                        android:text="Precio:S/. 2.50"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:src="@drawable/chocolatecusco" />
                 </LinearLayout>
 
+                <LinearLayout
+                    android:layout_width="400dp"
+                    android:layout_height="156dp">
 
+                    <TextView
+                        android:layout_width="109dp"
+                        android:layout_height="103dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="40dp"
+                        android:text=" Leche Gloria"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="146dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Precio:S/. 3.00"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:src="@drawable/lechegloria" />
+                </LinearLayout>
             </LinearLayout>
 
         </LinearLayout>
