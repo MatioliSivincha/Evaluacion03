@@ -4,6 +4,7 @@
     <string name="login_password">Escriba la contraseña</string>
     <string name="login_button">Iniciar</string>
     <string name="login_cancel_button">Cancelar</string>
-    <string name="login_error_message">La contraseña debe contener al menos 5 carácteres</string>
+    <string name="login_error_message">La contraseña debe contener al menos 5 caracteres</string>
     <string name="seach">Buscar productos</string>
+    <string name="settings">Configuración</string>
 </resources>

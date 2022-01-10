@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#CAAB51">
+    android:background="#F1E4BE">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -14,7 +14,7 @@
         <com.google.android.material.appbar.AppBarLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#956B19">
+            android:background="#E1AD45">
 
 
             <androidx.appcompat.widget.Toolbar
@@ -22,16 +22,20 @@
                 style="@style/Widget.MaterialComponents.AppBarLayout.PrimarySurface"
                 android:layout_width="410dp"
                 android:layout_height="match_parent"
+                android:background="#E1AD45"
                 app:title="Menu de Productos"
-                app:titleTextColor="#FFFFFF"
-                android:background="#956B19"
-                >
-                <androidx.constraintlayout.utils.widget.ImageFilterView
+                app:titleTextColor="#FFFFFF">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/setting_button"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:layout_gravity="right"
-                    android:padding="12dp"
-                    android:src="@drawable/settings" />
+                    android:layout_marginRight="10dp"
+                    android:padding="20dp"
+                    app:icon="@drawable/settings"
+                    app:iconTint="#EFE9CC" />
             </androidx.appcompat.widget.Toolbar>
         </com.google.android.material.appbar.AppBarLayout>
 
